@@ -1,0 +1,278 @@
+bundle exec rails new full_rails_new
+      create
+      create  README.md
+      create  Rakefile
+      create  .ruby-version
+      create  config.ru
+      create  .gitignore
+      create  .gitattributes
+      create  Gemfile
+         run  git init from "."
+Initialized empty Git repository in /Users/kibitan/repo/github.com/kaigaiijuch/raw_rails_new/full_rails_new/.git/
+      create  app
+      create  app/assets/config/manifest.js
+      create  app/assets/stylesheets/application.css
+      create  app/channels/application_cable/channel.rb
+      create  app/channels/application_cable/connection.rb
+      create  app/controllers/application_controller.rb
+      create  app/helpers/application_helper.rb
+      create  app/jobs/application_job.rb
+      create  app/mailers/application_mailer.rb
+      create  app/models/application_record.rb
+      create  app/views/layouts/application.html.erb
+      create  app/views/layouts/mailer.html.erb
+      create  app/views/layouts/mailer.text.erb
+      create  app/assets/images
+      create  app/assets/images/.keep
+      create  app/controllers/concerns/.keep
+      create  app/models/concerns/.keep
+      create  bin
+      create  bin/rails
+      create  bin/rake
+      create  bin/setup
+      create  Dockerfile
+      create  .dockerignore
+      create  bin/docker-entrypoint
+      create  config
+      create  config/routes.rb
+      create  config/application.rb
+      create  config/environment.rb
+      create  config/cable.yml
+      create  config/puma.rb
+      create  config/storage.yml
+      create  config/environments
+      create  config/environments/development.rb
+      create  config/environments/production.rb
+      create  config/environments/test.rb
+      create  config/initializers
+      create  config/initializers/assets.rb
+      create  config/initializers/content_security_policy.rb
+      create  config/initializers/cors.rb
+      create  config/initializers/filter_parameter_logging.rb
+      create  config/initializers/inflections.rb
+      create  config/initializers/new_framework_defaults_7_1.rb
+      create  config/initializers/permissions_policy.rb
+      create  config/locales
+      create  config/locales/en.yml
+      create  config/master.key
+      append  .gitignore
+      create  config/boot.rb
+      create  config/database.yml
+      create  db
+      create  db/seeds.rb
+      create  lib
+      create  lib/tasks
+      create  lib/tasks/.keep
+      create  lib/assets
+      create  lib/assets/.keep
+      create  log
+      create  log/.keep
+      create  public
+      create  public/404.html
+      create  public/422.html
+      create  public/500.html
+      create  public/apple-touch-icon-precomposed.png
+      create  public/apple-touch-icon.png
+      create  public/favicon.ico
+      create  public/robots.txt
+      create  tmp
+      create  tmp/.keep
+      create  tmp/pids
+      create  tmp/pids/.keep
+      create  tmp/cache
+      create  tmp/cache/assets
+      create  vendor
+      create  vendor/.keep
+      create  test/fixtures/files
+      create  test/fixtures/files/.keep
+      create  test/controllers
+      create  test/controllers/.keep
+      create  test/mailers
+      create  test/mailers/.keep
+      create  test/models
+      create  test/models/.keep
+      create  test/helpers
+      create  test/helpers/.keep
+      create  test/integration
+      create  test/integration/.keep
+      create  test/channels/application_cable/connection_test.rb
+      create  test/test_helper.rb
+      create  test/system
+      create  test/system/.keep
+      create  test/application_system_test_case.rb
+      create  storage
+      create  storage/.keep
+      create  tmp/storage
+      create  tmp/storage/.keep
+      remove  config/initializers/cors.rb
+      remove  config/initializers/new_framework_defaults_7_1.rb
+         run  bundle install
+Fetching gem metadata from https://rubygems.org/...........
+Resolving dependencies...
+Fetching rake 13.1.0
+Installing rake 13.1.0
+Fetching bigdecimal 3.1.7
+Fetching concurrent-ruby 1.2.3
+Fetching connection_pool 2.4.1
+Fetching drb 2.2.1
+Installing bigdecimal 3.1.7 with native extensions
+Installing concurrent-ruby 1.2.3
+Installing connection_pool 2.4.1
+Installing drb 2.2.1
+Fetching minitest 5.22.3
+Fetching builder 3.2.4
+Fetching erubi 1.12.0
+Installing minitest 5.22.3
+Fetching racc 1.7.3
+Installing builder 3.2.4
+Fetching crass 1.0.6
+Installing erubi 1.12.0
+Fetching rack 3.0.10
+Installing racc 1.7.3 with native extensions
+Installing crass 1.0.6
+Fetching nio4r 2.7.1
+Installing rack 3.0.10
+Fetching websocket-extensions 0.1.5
+Installing nio4r 2.7.1 with native extensions
+Installing websocket-extensions 0.1.5
+Fetching zeitwerk 2.6.13
+Installing zeitwerk 2.6.13
+Fetching marcel 1.0.4
+Installing marcel 1.0.4
+Fetching mini_mime 1.1.5
+Installing mini_mime 1.1.5
+Fetching public_suffix 5.0.4
+Installing public_suffix 5.0.4
+Fetching bindex 0.8.1
+Fetching msgpack 1.7.2
+Installing bindex 0.8.1 with native extensions
+Installing msgpack 1.7.2 with native extensions
+Fetching matrix 0.4.2
+Installing matrix 0.4.2
+Fetching regexp_parser 2.9.0
+Installing regexp_parser 2.9.0
+Fetching io-console 0.7.2
+Installing io-console 0.7.2 with native extensions
+Fetching webrick 1.8.1
+Installing webrick 1.8.1
+Fetching thor 1.3.1
+Installing thor 1.3.1
+Fetching rexml 3.2.6
+Installing rexml 3.2.6
+Fetching rubyzip 2.3.2
+Installing rubyzip 2.3.2
+Fetching websocket 1.2.10
+Installing websocket 1.2.10
+Fetching sqlite3 1.7.3 (arm64-darwin)
+Fetching i18n 1.14.4
+Installing i18n 1.14.4
+Installing sqlite3 1.7.3 (arm64-darwin)
+Fetching tzinfo 2.0.6
+Installing tzinfo 2.0.6
+Fetching rack-session 2.0.0
+Fetching rack-test 2.1.0
+Installing rack-session 2.0.0
+Fetching sprockets 4.2.1
+Installing rack-test 2.1.0
+Fetching websocket-driver 0.7.6
+Installing sprockets 4.2.1
+Fetching addressable 2.8.6
+Installing websocket-driver 0.7.6 with native extensions
+Installing addressable 2.8.6
+Fetching nokogiri 1.16.3 (arm64-darwin)
+Fetching puma 6.4.2
+Fetching rackup 2.1.0
+Installing puma 6.4.2 with native extensions
+Installing nokogiri 1.16.3 (arm64-darwin)
+Installing rackup 2.1.0
+Fetching selenium-webdriver 4.18.1
+Fetching reline 0.4.3
+Fetching net-imap 0.4.10
+Installing reline 0.4.3
+Fetching net-pop 0.1.2
+Installing net-imap 0.4.10
+Installing selenium-webdriver 4.18.1
+Installing net-pop 0.1.2
+Fetching net-smtp 0.4.0.1
+Fetching bootsnap 1.18.3
+Installing net-smtp 0.4.0.1
+Fetching rdoc 6.6.3.1
+Installing bootsnap 1.18.3 with native extensions
+Installing rdoc 6.6.3.1
+Fetching loofah 2.22.0
+Fetching xpath 3.2.0
+Installing loofah 2.22.0
+Fetching activesupport 7.1.3.2
+Installing xpath 3.2.0
+Fetching mail 2.8.1
+Installing activesupport 7.1.3.2
+Fetching irb 1.12.0
+Installing mail 2.8.1
+Installing irb 1.12.0
+Fetching rails-html-sanitizer 1.6.0
+Fetching capybara 3.40.0
+Installing rails-html-sanitizer 1.6.0
+Fetching rails-dom-testing 2.2.0
+Installing capybara 3.40.0
+Installing rails-dom-testing 2.2.0
+Fetching globalid 1.2.1
+Installing globalid 1.2.1
+Fetching activemodel 7.1.3.2
+Fetching debug 1.9.1
+Installing activemodel 7.1.3.2
+Fetching actionview 7.1.3.2
+Installing debug 1.9.1 with native extensions
+Installing actionview 7.1.3.2
+Fetching activejob 7.1.3.2
+Fetching activerecord 7.1.3.2
+Installing activejob 7.1.3.2
+Fetching actionpack 7.1.3.2
+Installing activerecord 7.1.3.2
+Installing actionpack 7.1.3.2
+Fetching jbuilder 2.11.5
+Installing jbuilder 2.11.5
+Fetching actioncable 7.1.3.2
+Fetching railties 7.1.3.2
+Fetching actionmailer 7.1.3.2
+Installing actioncable 7.1.3.2
+Fetching sprockets-rails 3.4.2
+Fetching activestorage 7.1.3.2
+Installing railties 7.1.3.2
+Installing actionmailer 7.1.3.2
+Installing sprockets-rails 3.4.2
+Fetching importmap-rails 2.0.1
+Fetching stimulus-rails 1.3.3
+Fetching turbo-rails 2.0.5
+Installing activestorage 7.1.3.2
+Fetching web-console 4.2.1
+Installing importmap-rails 2.0.1
+Fetching actionmailbox 7.1.3.2
+Installing stimulus-rails 1.3.3
+Fetching actiontext 7.1.3.2
+Installing turbo-rails 2.0.5
+Installing web-console 4.2.1
+Installing actionmailbox 7.1.3.2
+Installing actiontext 7.1.3.2
+Fetching rails 7.1.3.2
+Installing rails 7.1.3.2
+Bundle complete! 14 Gemfile dependencies, 81 gems now installed.
+Bundled gems are installed into `./vendor/bundle`
+         run  bundle lock --add-platform=x86_64-linux
+Writing lockfile to /Users/kibitan/repo/github.com/kaigaiijuch/raw_rails_new/full_rails_new/Gemfile.lock
+         run  bundle lock --add-platform=aarch64-linux
+Writing lockfile to /Users/kibitan/repo/github.com/kaigaiijuch/raw_rails_new/full_rails_new/Gemfile.lock
+         run  bundle binstubs bundler
+Skipped bundle since it already exists.
+If you want to overwrite skipped stubs, use --force.
+       rails  importmap:install
+/Users/kibitan/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/bundled_gems.rb:74:in `require': cannot load such file -- bootsnap/setup (LoadError)
+	from /Users/kibitan/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/bundled_gems.rb:74:in `block (2 levels) in replace_require'
+	from /Users/kibitan/repo/github.com/kaigaiijuch/raw_rails_new/full_rails_new/config/boot.rb:4:in `<top (required)>'
+	from bin/rails:3:in `require_relative'
+	from bin/rails:3:in `<main>'
+       rails  turbo:install stimulus:install
+/Users/kibitan/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/bundled_gems.rb:74:in `require': cannot load such file -- bootsnap/setup (LoadError)
+	from /Users/kibitan/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/bundled_gems.rb:74:in `block (2 levels) in replace_require'
+	from /Users/kibitan/repo/github.com/kaigaiijuch/raw_rails_new/full_rails_new/config/boot.rb:4:in `<top (required)>'
+	from bin/rails:3:in `require_relative'
+	from bin/rails:3:in `<main>'
